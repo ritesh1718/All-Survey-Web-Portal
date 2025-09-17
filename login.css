@@ -1,0 +1,50 @@
+/* Body Styling */
+body {
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Soft blue gradient */
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background: linear-gradient(90deg, #007bff, #00c6ff) !important; /* Attractive blue gradient */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fffacd !important; /* Light gold on hover */
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Form input styling */
+  input.form-control {
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    border-color: #007bff;
+  }
+  
+  /* Button styling */
+  button.btn-primary {
+  

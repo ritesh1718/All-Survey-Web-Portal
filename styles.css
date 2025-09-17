@@ -1,0 +1,72 @@
+:root {
+    --theme-color: #4CAF50; /* Change this for a different theme color */
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar, .footer {
+    background-color: var(--theme-color);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Marquee Text */
+  .marquee-text {
+    background: #e9ecef;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Icon Slider */
+  .icon-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .icon-slider i {
+    font-size: 2rem;
+    color: var(--theme-color);
+    flex: 0 0 auto;
+  }
+  
+  /* Footer */
+  .footer {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: underline;
+  }
+  
+  .container h4 {
+    color: var(--theme-color);
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .carousel img {
+    max-height: 450px;
+    object-fit: cover;
+  }
+    
